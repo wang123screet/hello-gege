@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="dns-prefetch" href="//file.40017.cn">
+    <meta id="viewport" content="width=640,user-scalable=no,initial-scale=0.5" name="viewport">
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<meta name="format-detection" content="telephone=no" />
+	<title>xxx</title>
+	<!--<link rel="stylesheet" type="text/css" href="./dist/css/app.min.css?v=_VERSION_">-->
+	<link rel="stylesheet" type="text/css" href="./main.css">
+    <script>
+        var width = parseInt(window.screen.width);
+        var scale = width/640;
+        document.getElementById('viewport').setAttribute('content', 'target-densitydpi=device-dpi,width=640,minimum-scale=0.5,maximum-scale='+scale+',user-scalable=no,initial-scale=' + scale);
+
+    </script>
+    <style type="text/css">
+
+        /*body{*/
+            /*background: url("./img/index-fs8.png") no-repeat;*/
+        /*}*/
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+
+    </style>
+</head>
+<body class="content">
+    <div class="inner">
+        <img src="img/index-fs8.png" style="height: 100%;width: 100%" alt="作为背景的图片">
+        <div class="text-no1" style="width: 100%">
+                截止
+                <span id="chen_mm"></span>
+                月
+                <span id="chen_dd"></span>
+                日，第一名已累计邀请
+                <span id="chen_total">100</span>
+                人
+        </div>
+        <p class="gift-text">已成功邀请<span class="invite-count">60</span>人，累计获得收益<span class="total-money">360</span>元</p>
+        <img class="img_quan" src="img/quan-fs8.png" alt="代金券">
+        <p class="font_money">180元</p>
+        <p class="font_quan">180元</p>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
